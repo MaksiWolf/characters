@@ -15,7 +15,7 @@ class CharactersTests extends PHPUnit_Framework_TestCase
         $this->calculator = NULL;
     }
 
-    public function testSe()
+    public function testRevertCharacters()
     {
         $result = $this->calculator->revertCharacters('Привет! Давно не виделись.');
         $this->assertEquals('Тевирп! Онвад ен ьсиледив.', $result);
